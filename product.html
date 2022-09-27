@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Product</title>
+  <link rel="stylesheet" href="product_style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <!--Nav Bar-->
+  <div class="wrapper">
+    <nav>
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+      <div class="logo"><a href="#"><img src = "images/logo.png" class ="logo_pic"></a></div>
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li>
+            <a href="#" class="desktop-link">Products</a>
+            <input type="checkbox" id="show-features">
+            <label for="show-features">Products</label>
+            <ul class = "navbar_mod">
+              <li><a href="product.html">5400 Analyzer</a></li>
+              <li><a href="product.html">4900 Series</a></li>
+              <li><a href="product.html">3625 Series</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="services.html">Services</a>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+      <form action="#" class="search-box">
+        <input type="text" placeholder="Type Something to Search..." required>
+        <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+      </form>
+    </nav>
+  </div>
+  <!--Upper Main Page-->
+  <section class = "home" id = "home">
+    <div class="content">
+        <h1>Wayne Kerr 5400 Series</h1>
+        <h2>Impedance Analyzer</h2>
+    </div>
+    <img src="images/machine.png" class="image">
+  </section>
+
+  <!--Tab2 Section-->
+  <div class="tab_wrapper">
+	<div class="tabs">
+		<ul>
+			<li class="active">
+				<span class="icon">
+				</span>
+				<span class="text">Overview</span>
+			</li>
+			<li>
+				<span class="icon">
+				</span>
+				<span class="text">Features</span>
+			</li>
+			<li>
+				<span class="icon">
+				</span>
+				<span class="text">Specification</span>
+			</li>
+			<li>
+				<span class="icon">
+				</span>
+				<span class="text">Option</span>
+			</li>
+		</ul>
+	</div>
+
+	<div class="t_content">
+    
+		<div class="tab_wrap" style="display: block;">
+			<div class="title">Overview</div>
+			<div class="tab_content">
+				<p>The 6500B series of Precision Impedance Analyzers provide precise and fast testing of components at frequencies up to 120 MHz. Basic measurement accuracy is ±0.05% making the instruments the best in the class.</p>
+				<p>The accuracy and versatility makes the precision analyzers the ideal choice for many different tasks and applications including passive component design, dielectric material characterisation and manufacturing test.</p>
+        <p>Engineers need to evaluate component characteristics at high frequencies with high levels of accuracy. The 65120B 120 MHz Precision Impedance Analyzer is therefore ideal for many demanding tasks, combining accuracy and ease of use at an affordable price. If a frequency range up to 120 MHz is not required then other models are available. The 6505B 5MHz instrument is the entry level model in the range.</p>      
+			</div>
+      <div class="tab_button">
+        <span class="icon">
+        <i class='bx bxs-data'></i>
+        </span>
+        <a href="wk6500b.pdf" target="_blank">Data Sheet</a>
+      </div>
+      <div class="tab_button">
+        <span class="icon">
+        <i class='bx bxl-telegram' ></i>
+        </span>
+        <a href="contact.html" target="_blank">Request Quote</a>
+      </div>
+		</div>
+		<div class="tab_wrap" style="display: none;">
+			<div class="title">Features</div>
+			<div class="tab_content">
+        <ul>
+          <li>Precise high frequency impedance measurements</li>
+          <li>Characterize components from 20 to 120 MHz</li>
+          <li>Wide range of models with maximum frequencies from 5MHz (6505B) to 120MHz (65120B)</li>
+          <li>0.05% basic measurement accuracy</li>
+          <li>0 to +40V DC bias voltage and 0 to 100mA DC bias Current (Option)</li>
+        </ul>
+			</div>
+      <div class="tab_button">
+        <span class="icon">
+        <i class='bx bxs-data'></i>
+        </span>
+        <a href="#">Data Sheet</a>
+      </div>
+      <div class="tab_button">
+        <span class="icon">
+        <i class='bx bxl-telegram' ></i>
+        </span>
+        <a href="#">Request Quote</a>
+      </div>
+		</div>
+		<div class="tab_wrap" style="display: none;">
+			<div class="title">Specification</div>
+			<div class="tab_content">
+        <table>
+          <tbody>
+            <tr>
+              <td>Measurement Function</td>
+              <td>Capacitance (C) 
+                <span>Inductance (L)</span>
+                <span>Inductance (L)</span></td>
+            </tr>
+            <tr>
+              <td>Frequency Range	</td>
+              <td>6505B 20Hz to 5MHz
+                <span>6510B 20Hz to 10MHz</span>
+                <span>6515B 20Hz to 15MHz</span></td>
+            </tr>
+            <tr>
+              <td>Measurement Connections</td>
+              <td>Four front panel BNC connectors permit two, three or four terminal connections with the screens at ground potential.
+                <span>1J1011 Component Fixture (supplied as standard) allows connection to leaded components and devices.</span></td>
+            </tr>
+          </tbody>
+        </table>
+			</div>
+      <div class="tab_button">
+        <span class="icon">
+        <i class='bx bxs-data'></i>
+        </span>
+        <a href="#">Data Sheet</a>
+      </div>
+      <div class="tab_button">
+        <span class="icon">
+        <i class='bx bxl-telegram' ></i>
+        </span>
+        <a href="#">Request Quote</a>
+      </div>
+		</div>
+		<div class="tab_wrap" style="display: none;">
+			<div class="title">Option</div>
+			<div class="tab_content">
+				<p>/E option - Equivalent Circuit Analysis</p>
+				<p>/K option - Materials Test</p>
+        <p>/M option - Multi Measurement Mode</p>
+        <p>/Y option - Polar Complex Plots</p>
+			</div>
+      <div class="tab_button">
+        <span class="icon">
+        <i class='bx bxs-data'></i>
+        </span>
+        <a href="#">Data Sheet</a>
+      </div>
+      <div class="tab_button">
+        <span class="icon">
+        <i class='bx bxl-telegram' ></i>
+        </span>
+        <a href="#">Request Quote</a>
+      </div>
+		</div>
+	</div>
+  </div>
+
+
+    <!--Footer Section-->
+    <footer>
+      <div class="footer__container">
+        <div class="footer__content">
+          <div class="footer__profil">
+            <div class="logo__area">
+              <img src="images/logo.png" alt="">
+            </div>
+            <div class="desc__area">
+              <p>Wayne Kerr Electronics is acknowledged worldwide for the quality, accuracy and the capability of its component measurement products.</p>
+            </div>
+          </div>
+          <div class="footer_service__area">
+            <ul class = "footer__service__header">
+              <li class = "footer__service__name">Quick Links</li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer_service__area">
+            <ul class = "footer__service__header">
+              <li class = "footer__service__name">Contact</li>
+              <li><a href="#">165L New Boston Street, Woburn, MA 01801-1744, USA</a></li>
+              <li><a href="#">Tel: +1(800)933-9319</a></li>
+              <li><a href="#">Fax: +1(781)933-9523</a></li>
+              <li><a href="#">sales@waynekerr.com</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr class = "hr">
+        <div class="footer__bottom">
+          <div class="copy__right">
+            <i class='bx bx-copyright'></i>
+            <span>2021 Wayne Kerr</span>
+          </div>
+          <div class="tou">
+            <a href="#">Term of Use</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Cookie</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+<script src="scripts.js"></script>
+</body>
+</html>
