@@ -398,6 +398,13 @@ section{
   } 
 }
 
+@media screen and (max-width: 455px){
+  .home img{
+    width: 300px;
+    margin: auto;
+  } 
+}
+
 /*Feature Section*/
 #features{
   padding: 50px 0;
@@ -667,7 +674,7 @@ section{
 .contact .contact__content h2{
   font-size: 45px;
   color: rgb(2, 20, 75);
-  margin-left: 150px;
+  margin: auto;
 }
 
 /*

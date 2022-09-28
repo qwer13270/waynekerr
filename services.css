@@ -301,6 +301,15 @@ ul .navbar_mod{
         display: inline-block;
     }
 }
+
+#service_button{
+    text-decoration: none;
+    padding: 8px;
+    background-color: #80acfd;
+    border-radius: 10px;
+    margin-left: 7px;
+    color: #14181f;
+}
 /*footer sectiob*/
 
 footer{

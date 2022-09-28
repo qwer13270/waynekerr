@@ -398,6 +398,13 @@ section{
   } 
 }
 
+@media screen and (max-width: 455px){
+  .home img{
+    width: 300px;
+    margin: auto;
+  } 
+}
+
 /*history*/
 
 #building{

@@ -352,6 +352,13 @@ section{
   } 
 }
 
+@media screen and (max-width: 455px){
+  .home img{
+    width: 300px;
+    margin: auto;
+  } 
+}
+
 /*Tab Section*/
 /*
 .hero{
@@ -594,6 +601,18 @@ tbody tr:nth-of-type(odd){
     border-radius: 5px;
     margin-bottom: 25px;
     padding: 0px 130px;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 537px){
+  .tabs ul{
+    display: flex;
+    background: #fbfbfb;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    padding: 0px 0px;
     flex-wrap: wrap;
   }
 }
