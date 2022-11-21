@@ -327,7 +327,7 @@ ul .navbar_mod{
 section{
     background: #ffffff;
     padding: 200px 0;
-    min-height: 100vh;
+    min-height: 85vh;
     padding: 0 9%;
 }
 
@@ -366,6 +366,13 @@ section{
     text-decoration: none;
 }
 
+@media screen and (max-width: 910px){
+  .home img{
+    width: 380px;
+}
+
+}
+
 @media screen and (max-width: 768px){
   .home {
     display: grid;
@@ -389,6 +396,10 @@ section{
     font-size: 1rem;
     text-align: center;
   }
+  .home img{
+    width: 500px;
+    margin-left: 50px;
+}
 }
 
 @media screen and (max-width: 605px){
@@ -598,13 +609,15 @@ section{
   color: rgb(2, 20, 75);
   text-align: center;
   margin-bottom: 10px;
+  font-size: 25px;
 }
 
 .services__card p {
   text-align: center;
-  font-size: 15px;
+  font-size: 13px;
   padding: 0 30px;
   padding-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .services__btn {
@@ -620,7 +633,8 @@ section{
   border-radius: 4px;
   background: rgb(2, 20, 75);
   font-size: 1rem;
-  margin-top: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 .services__card button:hover {
@@ -635,7 +649,7 @@ section{
 
 .services .service_img{
   width: 200px;
-  margin-left: 50px;
+  margin-left: 38px;
   margin-bottom: 10px;
   margin-top: 15px;
   text-align: center;
@@ -644,6 +658,7 @@ section{
 @media screen and (max-width: 1300px) {
   .services__wrapper {
     grid-template-columns: 1fr 1fr;
+    column-gap: 0px;
   }
 }
 

@@ -18,7 +18,6 @@
       <input type="checkbox" id="show-menu">
       <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
       <div class="content">
-      <div class="logo"><a href="#"><img src = "images/logo.png" class ="logo_pic"></a></div>
         <ul class="links">
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
@@ -27,9 +26,10 @@
             <input type="checkbox" id="show-features">
             <label for="show-features">Products</label>
             <ul class = "navbar_mod">
-              <li><a href="product.html">5400 Analyzer</a></li>
-              <li><a href="product.html">4900 Series</a></li>
-              <li><a href="product.html">3625 Series</a></li>
+              <li><a href="product.html">5400 Machine</a></li>
+              <li><a href="43200.html">43200 LCR Meter</a></li>
+              <li><a href="4900.html">4900 LCR Engine</a></li>
+              <li><a href="data_logging.html">WK Data Logging</a></li>
             </ul>
           </li>
           <li>
@@ -37,6 +37,7 @@
           </li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
+        <div class="logo"><a href="index.html"><img src = "images/logo.png" class ="logo_pic"></a></div>
       </div>
       <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
       <form action="#" class="search-box">
@@ -48,8 +49,9 @@
   <!--Upper Main Page-->
   <section class = "home" id = "home">
     <div class="content">
-        <h1>Wayne Kerr 5400 Series</h1>
-        <h2>Impedance Analyzer</h2>
+        <h1>Wayne Kerr</h1>
+        <h1> 5400 Machine</h1>
+        <h2>LCR Meter + Impedance Analyzer</h2>
     </div>
     <img src="images/machine.png" class="image">
   </section>
@@ -86,15 +88,19 @@
 		<div class="tab_wrap" style="display: block;">
 			<div class="title">Overview</div>
 			<div class="tab_content">
-				<p>The 6500B series of Precision Impedance Analyzers provide precise and fast testing of components at frequencies up to 120 MHz. Basic measurement accuracy is ±0.05% making the instruments the best in the class.</p>
-				<p>The accuracy and versatility makes the precision analyzers the ideal choice for many different tasks and applications including passive component design, dielectric material characterisation and manufacturing test.</p>
-        <p>Engineers need to evaluate component characteristics at high frequencies with high levels of accuracy. The 65120B 120 MHz Precision Impedance Analyzer is therefore ideal for many demanding tasks, combining accuracy and ease of use at an affordable price. If a frequency range up to 120 MHz is not required then other models are available. The 6505B 5MHz instrument is the entry level model in the range.</p>      
+        <p>5400 is a super machine that combines LCR meter with the Impedance Analyzer. The LCR meter is 3 to 5 times faster than the 3260, and it could measure up to 10 MHz. These measurements and analyzations are all done with the 5400.</p>
+				<p>Completely characterize components graphically.</p>
+        <p>The binning function allows component manufacturers to sort components in up to ten bins. Sorting is carried out either by absolute values or by percentage of values. </p>
+        <p>Component tests with up to 300 A DC bias current for operation of up to 500KHZ</p>
+        <p>Component tests up to 50A DC bias for operation of up to 3MHz</p>
+        <p>Fast automatic multi-frequency production testing of capacitors and inductors</p>
+        <p>Protection against charged capacitors</p>  
 			</div>
       <div class="tab_button">
         <span class="icon">
         <i class='bx bxs-data'></i>
         </span>
-        <a href="wk6500b.pdf" target="_blank">Data Sheet</a>
+        <a href="wk5400.pdf" target="_blank">Data Sheet</a>
       </div>
       <div class="tab_button">
         <span class="icon">
@@ -107,24 +113,39 @@
 			<div class="title">Features</div>
 			<div class="tab_content">
         <ul>
+          <li>Wide frequency range of 20 Hz to 10MHz</li>
+          <li>0.1% basic accuracy</li>
+          <li>Internal ±100mA bias current</li>
+          <li>Up to 300A DC bias current</li>
+          <li>Bin Handler Mode (option) sort components in up to 10 bins</li>
+          <li>Analysis mode - graph measured parameters against Frequency, AC Drive Level & DC Bias Current</li>
+          <li>Z, L, C, Rac, Ø, Q, D, Rdc</li>
+          <li>Straightforward intuitive operation</li>
+          <li>Print test results</li>
+          <li>IEEE 488 GPIB control</li>
           <li>Precise high frequency impedance measurements</li>
-          <li>Characterize components from 20 to 120 MHz</li>
-          <li>Wide range of models with maximum frequencies from 5MHz (6505B) to 120MHz (65120B)</li>
-          <li>0.05% basic measurement accuracy</li>
+          <li>Characterize components from 20 to 10 MHz</li>
+          <li>Comprehensive measurement functions</li>
           <li>0 to +40V DC bias voltage and 0 to 100mA DC bias Current (Option)</li>
+          <li>±40V DC bias voltage (Option)</li>
+          <li>Touch screen operation with keyboard and mouse options</li>
+          <li>Clear graphic displays aids measurements</li>
+          <li>Intuitive user interface</li>
+          <li>Fully programmable over GPIB</li>
+          <li>Keyboard and mouse optional control</li>
         </ul>
 			</div>
       <div class="tab_button">
         <span class="icon">
         <i class='bx bxs-data'></i>
         </span>
-        <a href="#">Data Sheet</a>
+        <a href="wk5400.pdf" target="_blank">Data Sheet</a>
       </div>
       <div class="tab_button">
         <span class="icon">
         <i class='bx bxl-telegram' ></i>
         </span>
-        <a href="#">Request Quote</a>
+        <a href="contact.html" target="_blank">Request Quote</a>
       </div>
 		</div>
 		<div class="tab_wrap" style="display: none;">
@@ -136,18 +157,105 @@
               <td>Measurement Function</td>
               <td>Capacitance (C) 
                 <span>Inductance (L)</span>
-                <span>Inductance (L)</span></td>
+                <span>Resistance (R)</span>
+                <span>Reactance (X)</span>
+                <span>Conductance (G)</span>
+                <span>Susceptance (B)</span>
+                <span>Dissipation Factor (D)</span>
+                <span>Quality Factor (Q)</span>
+                <span>Impedance (Z)</span>
+                <span>Admittance (Y)</span>
+                <span>Phase Angle (Ø)</span></td>
             </tr>
             <tr>
               <td>Frequency Range	</td>
-              <td>6505B 20Hz to 5MHz
-                <span>6510B 20Hz to 10MHz</span>
-                <span>6515B 20Hz to 15MHz</span></td>
+              <td>20 Hz to 10MHz Option></td>
+            </tr>
+            <tr>
+              <td>AC Drive Level</td>
+              <td>10 mV or 1V rms (varies with frequency)
+                <span>200 µA to 20 mA rms (varies with frequency)</span></td>
+            </tr>
+            <tr>
+              <td>Measurement Speeds</td>
+              <td>4 speeds selectable 
+                <span>Up to 150 measurements per second for test frequencies ≧100 Hz</span></td>
+            </tr>
+            <tr>
+              <td>Accuracy</td>
+              <td>Dissipation factor - ±0.0005 (1+D2)
+                <span>Quality factor - ±0.05 %( Q+1/Q)</span>
+                <span>Capacitance / Inductance / Impedance - ±0.05%</span>
+                <span>Accuracy varies with frequency, drive level and measured impedance</span></td>
+            </tr>
+            <tr>
+              <td>DC Bias Current (Option)</td>
+              <td>Internal DC Bias ±100 mA current; ±10V DC Voltage
+                <span>External DC Bias Current 300A; ±60V DC Voltage</span></td>
+            </tr>
+            <tr>
+              <td>Binning (Option)</td>
+              <td>10 bins with absolute and percentage limits  
+                <span>25 way d-type interface connector</span>
+                <span>/B1 (Non-isolated) Comon 0V Bin outputs 0 to 5V(normal) with >10mA current sink capability</span>
+                <span>/B2 (isolated) Comon 24V input outputs 0 to 24V with >10mA current source capability</span></td>
+            </tr>
+            <tr>
+              <td>Input Specification</td>
+              <td>Power supply - Input voltage 90 V AC to 264 V AC (Autoranging)
+                Mains frequency 47 to 63 Hz</td>
+            </tr>
+            <tr>
+              <td>Display</td>
+              <td>8.4" VGA (650 x 480) color TFT with touch panel</td>
             </tr>
             <tr>
               <td>Measurement Connections</td>
               <td>Four front panel BNC connectors permit two, three or four terminal connections with the screens at ground potential.
-                <span>1J1011 Component Fixture (supplied as standard) allows connection to leaded components and devices.</span></td>
+                <span>1J1054 Component Fixture (supplied as standard) allows connection to leaded components and devices. </span>
+                <span>1J1012 (2 Terminal) and 1J1014 (4 Terminal) fixtures allow connection to surface mount devices.</span>
+              </td>
+            </tr>
+            <tr>
+              <td>Printer</td>
+              <td>HP-PCL compatible graphics printing (local and network)
+                <span>Centronics / parallel printer port, Epson compatible text/ticket printing (local)</span></td>
+            </tr>
+            <tr>
+              <td>Remote Trigger</td>
+              <td>Rear panel BNC with internal pull-up, operates on logic low or contact closure</td>
+            </tr>
+            <tr>
+              <td>GPIB Interface</td>
+              <td>External instrument control 24 pin IEEE 488 connector</td>
+            </tr>
+            <tr>
+              <td>USB Interface</td>
+              <td>Two Unversal Serial Bus (USB) interfaces
+                <span>USB 1.1 compliant</span>
+              </td>
+            </tr>
+            <tr>
+              <td>VGA Interface</td>
+              <td>15-way D-type connector to drive an external monitor in addition to the internal screen
+              </td>
+            </tr>
+            <tr>
+              <td>Network Interface</td>
+              <td>10/100-BASETX Ethernet controller
+                <span>RJ45 connector</span>
+              </td>
+            </tr>
+            <tr>
+              <td>Keyboard Interface</td>
+              <td>Standard USB or PS/2 keyboard port. Instrument front panel remains active with keyboard plugged in
+              </td>
+            </tr>
+            <tr>
+              <td>Mouse Interface</td>
+              <td>Standard USB or PS/2 mouse port
+                <span>Touch screen remains enabled when the mouse is connected</span>
+              </td>
             </tr>
           </tbody>
         </table>
@@ -156,34 +264,32 @@
         <span class="icon">
         <i class='bx bxs-data'></i>
         </span>
-        <a href="#">Data Sheet</a>
+        <a href="wk5400.pdf" target="_blank">Data Sheet</a>
       </div>
       <div class="tab_button">
         <span class="icon">
         <i class='bx bxl-telegram' ></i>
         </span>
-        <a href="#">Request Quote</a>
+        <a href="contact.html" target="_blank">Request Quote</a>
       </div>
 		</div>
 		<div class="tab_wrap" style="display: none;">
 			<div class="title">Option</div>
 			<div class="tab_content">
-				<p>/E option - Equivalent Circuit Analysis</p>
-				<p>/K option - Materials Test</p>
-        <p>/M option - Multi Measurement Mode</p>
-        <p>/Y option - Polar Complex Plots</p>
+				<p>------</p>
+        <p>------</p>
 			</div>
       <div class="tab_button">
         <span class="icon">
         <i class='bx bxs-data'></i>
         </span>
-        <a href="#">Data Sheet</a>
+        <a href="wk5400.pdf" target="_blank">Data Sheet</a>
       </div>
       <div class="tab_button">
         <span class="icon">
         <i class='bx bxl-telegram' ></i>
         </span>
-        <a href="#">Request Quote</a>
+        <a href="contact.html" target="_blank">Request Quote</a>
       </div>
 		</div>
 	</div>

@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Product</title>
+  <link rel="stylesheet" href="4900.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <!--Nav Bar-->
+  <div class="wrapper">
+    <nav>
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li>
+            <a href="#" class="desktop-link">Products</a>
+            <input type="checkbox" id="show-features">
+            <label for="show-features">Products</label>
+            <ul class = "navbar_mod">
+              <li><a href="product.html">5400 Analyzer</a></li>
+              <li><a href="43200.html">43200 LCR Meter</a></li>
+              <li><a href="4900.html">4900 LCR Engine</a></li>
+              <li><a href="data_logging.html">WK Data Logging</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="services.html">Services</a>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="logo"><a href="index.html"><img src = "images/logo.png" class ="logo_pic"></a></div>
+      </div>
+      <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+      <form action="#" class="search-box">
+        <input type="text" placeholder="Type Something to Search..." required>
+        <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+      </form>
+    </nav>
+  </div>
+  <!--Upper Main Page-->
+  <section class = "home" id = "home">
+    <div class="content">
+        <h1>Wayne Kerr</h1>
+        <h1>4900 Machine</h1>
+        <h2>LCR Engine</h2>
+    </div>
+    <img src="images/4900.png" class="image">
+  </section>
+
+  <!--Tab2 Section-->
+  <div class="tab_wrapper">
+	<div class="tabs">
+		<ul>
+			<li class="active">
+				<span class="icon">
+				</span>
+				<span class="text">Overview</span>
+			</li>
+			<li>
+				<span class="icon">
+				</span>
+				<span class="text">Features</span>
+			</li>
+			<li>
+				<span class="icon">
+				</span>
+				<span class="text">Specification</span>
+			</li>
+			<li>
+				<span class="icon">
+				</span>
+				<span class="text">Option</span>
+			</li>
+		</ul>
+	</div>
+
+	<div class="t_content">
+    
+		<div class="tab_wrap" style="display: block;">
+			<div class="title">Overview</div>
+			<div class="tab_content">
+				<p>4900 is an alternative 43200 model with only half the price. It comes without a monitor, opening the possibility for users to customize their preferred interface within the provided command options. This is the more affordable and flexible model option.</p>
+				<p>Two test mode enables consecutive measurements to be made with two different instrument parameters set. For example two AC measurements may be made at different frequencies or an AC and a Rdc measurement may be made.</p>
+        <p>An optional component Binning module may be specified which provides an interface to component sorting machines. Limits set in the instrument Binning mode enable a wide range of components to be sorted while the choice of isolated or non-isolated modules give interface flexibility.</p>
+        <p>The optional Scaleizer handler module provides PASS/FAIL and data synchronisation relay outputs for limit checked measurements. Two output signal configurations are available.</p>
+        <p>Up to 20 measurements set ups can be saved with user defined names for later recall.</p>
+        <p>May be externally controlled using the standard RS232, GPIB, USB or LAN interfaces.</p>
+			</div>
+      <div class="tab_button">
+        <span class="icon">
+        <i class='bx bxs-data'></i>
+        </span>
+        <a href="4900_Operation.pdf" target="_blank">Operation Manual</a>
+      </div>
+      <div class="tab_button">
+        <span class="icon">
+        <i class='bx bxs-data'></i>
+        </span>
+        <a href="4900_Installation.pdf" target="_blank">Installation Manual</a>
+      </div>
+      <div class="tab_button">
+        <span class="icon">
+        <i class='bx bxl-telegram' ></i>
+        </span>
+        <a href="contact.html" target="_blank">Request Quote</a>
+      </div>
+		</div>
+		<div class="tab_wrap" style="display: none;">
+			<div class="title">Features</div>
+			<div class="tab_content">
+        <ul>
+          <li>Test components from 20Hz to 2 MHz</li>
+          <li>0.1% basic accuracy</li>
+          <li> < 25ms measurement time</li>
+          <li> Parameters C, L, Z, Y, X, B, Rac, Rdc, G, Q, D, Ø</li>
+          <li> Single or two test operation</li>
+          <li> Up to four parameters may be displayed (two test mode)</li>
+          <li> Drive level from 10mV to 2Vrms</li>
+          <li> Scale mode with measurement target limits</li>
+          <li> Operator mode with target limits</li>
+          <li> ±40Vdc internal and external bias</li>
+          <li> Measurement setup Save and Recall</li>
+          <li> GPIB / IEEE-488, USB, LAN and RS-232 interfaces</li>
+          <li> Handler Scaleizer module (Optional)</li>
+          <li> Binning (Optional)</li>
+          <li> Protection against charged capacitors</li>
+          <li> Small size and light weight</li>
+        </ul>
+			</div>
+      <div class="tab_button">
+        <span class="icon">
+        <i class='bx bxs-data'></i>
+        </span>
+        <a href="4900_Operation.pdf" target="_blank">Operation Manual</a>
+      </div>
+      <div class="tab_button">
+        <span class="icon">
+        <i class='bx bxs-data'></i>
+        </span>
+        <a href="4900_Installation.pdf" target="_blank">Installation Manual</a>
+      </div>
+      <div class="tab_button">
+        <span class="icon">
+        <i class='bx bxl-telegram' ></i>
+        </span>
+        <a href="contact.html" target="_blank">Request Quote</a>
+      </div>
+		</div>
+		<div class="tab_wrap" style="display: none;">
+			<div class="title">Specification</div>
+			<div class="tab_content">
+        <table>
+          <tbody>
+            <tr>
+              <td>Frequency Range</td>
+              <td>20 Hz to 2 MHz </td>
+            </tr>
+            <tr>
+              <td>Frequency Steps	</td>
+              <td>5 Hz - 20 Hz to 1 kHz
+                <span>50 Hz - 1 kHz to 10 kHz</span>
+                <span>500 Hz - 10 kHz to 100 kHz</span>
+                <span>5 kHz - 100 kHz to 1 MHz</span>
+              </td>
+            </tr>
+            <tr>
+              <td>Measurement Function</td>
+              <td>Impedance (Z) 
+                <span> Phase Angle (Ө)</span>
+                <span>Capacitance (C)</span>
+                <span>Dissipation Factor (D)</span>
+                <span>Inductance (L)</span>
+                <span>Quality Factor (Q)</span>
+                <span>AC Resistance (Rac)</span>
+                <span>Reactance (X)</span>
+                <span>Susceptance (B)</span>
+                <span>Conductance (G)</span>
+                <span>Admittance (Y)</span>
+                <span>DC Resistance (Rdc) is an option (/R) on all models.</span>
+              </td>
+            </tr>
+            <tr>
+              <td>Series/parallel equivalent circuit</td>
+              <td>Any combination</td>
+            </tr>
+            <tr>
+              <td>Polar Form</td>
+              <td>Z + Ө, Y + Ө</td>
+            </tr>
+            <tr>
+              <td>Drive Level(AC measurements)</td>
+              <td>Open circuit:   10 mV to 2V rms
+                <span>Voltage step size:    10 mV (200 steps)</span>
+                <span>Short circuit:    100 µA to 20 mA rms</span>
+                <span>Current step size:    100 µA (200 steps)</span>
+                <span>Signal source impedance:    100Ω</span>
+              </td>
+            </tr>
+            <tr>
+              <td>DC Bias Voltage	</td>
+              <td>Internal ±40 Vdc
+                <span>External - up to ±40V may be connected via rear panel</span>
+              </td>
+            </tr>
+            <tr>
+              <td>Measurement Speeds</td>
+              <td>Four selectable speeds for all measurement functions
+                <span>Up to 50 measurements per second depending on test frequency and setup condition</span>
+              </td>
+            </tr>
+            <tr>
+              <td>Measurement Ranges</td>
+              <td>Z, R, X 0.01 mΩ to > 1 GΩ
+                <span>Y, B, G 0.1 nS to > 2 kS</span>
+                <span>L 1 nH to > 2 kH</span>
+                <span>C 0.01 pF to > 1 F</span>
+                <span>D, Q 0.0001 to 9999.9</span>
+                <span>Phase Angle -180° to +180°</span>
+                <span>Rdc 0.1 mΩ to > 100 MΩ</span>
+              </td>
+            </tr>
+            <tr>
+              <td>Basic Accuracy</td>
+              <td>0.1% varies with speed, frequency, AC drive level and impedance of device under test</td>
+            </tr>
+            <tr>
+              <td>Binning (Optional)</td>
+              <td>User programmable PASS and FAIL bins. 25 way D-type interface connector.
+                <span>Option /B1 (non-isolated) - Common 0V. Bin outputs 0 to 5V (nominal) with >10 mA current sink capability.</span>
+                <span>Option /B2 (isolated) - Common 24V input. Outputs 0 to 24V with >10 mA current source capability.</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+			</div>
+      <div class="tab_button">
+        <span class="icon">
+        <i class='bx bxs-data'></i>
+        </span>
+        <a href="4900_Operation.pdf" target="_blank">Operation Manual</a>
+      </div>
+      <div class="tab_button">
+        <span class="icon">
+        <i class='bx bxs-data'></i>
+        </span>
+        <a href="4900_Installation.pdf" target="_blank">Installation Manual</a>
+      </div>
+      <div class="tab_button">
+        <span class="icon">
+        <i class='bx bxl-telegram' ></i>
+        </span>
+        <a href="contact.html" target="_blank">Request Quote</a>
+      </div>
+		</div>
+		<div class="tab_wrap" style="display: none;">
+			<div class="title">Option</div>
+			<div class="tab_content">
+				<p>/S1 option - Scaleizer (S1 type)</p>
+        <p>/S2 option - Scaleizer (S2 type)</p>
+        <p>/B1 option - Bin handler (non-isolated)</p>
+        <p>/B2 option - Bin handler (isolated 24V)</p>
+			</div>
+      <div class="tab_button">
+        <span class="icon">
+        <i class='bx bxs-data'></i>
+        </span>
+        <a href="4900_Operation.pdf" target="_blank">Operation Manual</a>
+      </div>
+      <div class="tab_button">
+        <span class="icon">
+        <i class='bx bxs-data'></i>
+        </span>
+        <a href="4900_Installation.pdf" target="_blank">Installation Manual</a>
+      </div>
+      <div class="tab_button">
+        <span class="icon">
+        <i class='bx bxl-telegram' ></i>
+        </span>
+        <a href="contact.html" target="_blank">Request Quote</a>
+      </div>
+		</div>
+	</div>
+  </div>
+
+
+    <!--Footer Section-->
+    <footer>
+      <div class="footer__container">
+        <div class="footer__content">
+          <div class="footer__profil">
+            <div class="logo__area">
+              <img src="images/logo.png" alt="">
+            </div>
+            <div class="desc__area">
+              <p>Wayne Kerr Electronics is acknowledged worldwide for the quality, accuracy and the capability of its component measurement products.</p>
+            </div>
+          </div>
+          <div class="footer_service__area">
+            <ul class = "footer__service__header">
+              <li class = "footer__service__name">Quick Links</li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer_service__area">
+            <ul class = "footer__service__header">
+              <li class = "footer__service__name">Contact</li>
+              <li><a href="#">165L New Boston Street, Woburn, MA 01801-1744, USA</a></li>
+              <li><a href="#">Tel: +1(800)933-9319</a></li>
+              <li><a href="#">Fax: +1(781)933-9523</a></li>
+              <li><a href="#">sales@waynekerr.com</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr class = "hr">
+        <div class="footer__bottom">
+          <div class="copy__right">
+            <i class='bx bx-copyright'></i>
+            <span>2021 Wayne Kerr</span>
+          </div>
+          <div class="tou">
+            <a href="#">Term of Use</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Cookie</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+<script src="scripts.js"></script>
+</body>
+</html>

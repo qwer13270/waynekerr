@@ -299,7 +299,7 @@ section{
 }
 
 .home .content h1{
-    font-size: 50px;
+    font-size: 55px;
     margin-bottom: 15px;
     color: rgb(2, 20, 75);
 
@@ -328,14 +328,12 @@ section{
     justify-self: center;
     width: 100%;
     margin: 0 auto;
-    height: 90vh;
   } 
   .home .content{
     text-align: center;
   }
   .home .content h1{
     font-size: 2.5rem;
-    margin-top: 2rem;
     text-align: center;
   }
   .home .content p{
@@ -345,10 +343,19 @@ section{
   }
 }
 
+@media screen and (max-width: 906px){
+  .home img{
+    margin-left: 0px;
+    width: 450px;
+    margin: auto;
+  } 
+}
+
 @media screen and (max-width: 605px){
   .home img{
     margin-left: 0px;
     width: 400px;
+    margin: auto;
   } 
 }
 

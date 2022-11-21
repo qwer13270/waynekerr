@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Product</title>
+  <link rel="stylesheet" href="data_logging.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <!--Nav Bar-->
+  <div class="wrapper">
+    <nav>
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li>
+            <a href="#" class="desktop-link">Products</a>
+            <input type="checkbox" id="show-features">
+            <label for="show-features">Products</label>
+            <ul class = "navbar_mod">
+              <li><a href="product.html">5400 Analyzer</a></li>
+              <li><a href="43200.html">43200 LCR Meter</a></li>
+              <li><a href="4900.html">4900 LCR Engine</a></li>
+              <li><a href="data_logging.html">WK Data Logging</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="services.html">Services</a>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="logo"><a href="index.html"><img src = "images/logo.png" class ="logo_pic"></a></div>
+      </div>
+      <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+      <form action="#" class="search-box">
+        <input type="text" placeholder="Type Something to Search..." required>
+        <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+      </form>
+    </nav>
+  </div>
+  <!--Upper Main Page-->
+  <section class = "home" id = "home">
+    <div class="content">
+        <h1>Wayne Kerr</h1>
+        <h1>WK Data Logging</h1>
+        <h2>Software Interface</h2>
+    </div>
+    <img src="images/logging.png" class="image">
+  </section>
+
+  <!--Tab2 Section-->
+  <div class="tab_wrapper">
+	<div class="tabs">
+		<ul>
+			<li class="active">
+				<span class="icon">
+				</span>
+				<span class="text">Overview</span>
+			</li>
+			<li>
+				<span class="icon">
+				</span>
+				<span class="text">Features</span>
+			</li>
+			<li>
+				<span class="icon">
+				</span>
+				<span class="text">System Requirements</span>
+			</li>
+			<li>
+				<span class="icon">
+				</span>
+				<span class="text">Mode</span>
+			</li>
+		</ul>
+	</div>
+
+	<div class="t_content">
+    
+		<div class="tab_wrap" style="display: block;">
+			<div class="title">Overview</div>
+			<div class="tab_content">
+				<p>WK Data Logging is a software interface that connect with Wayne Kerr instruments. It is simple, yet powerful in running tests and retrieving test result. There are crucial features from setting, measuring, to exporting, plus guage and analysis mode switching modes</p>
+				<p>Two mode enables different functions and supports to be done by connecting with machine</p>
+        <p>Dashboard mode functions</p>
+        <ul>
+            <li> Single measurement</li>
+            <li> Repeat measurement</li>
+            <li> Save measurement data (USB key required)</li>
+            <li> Scan 2D barcode, new incremental measurement conditions, material information</li>
+        </ul>
+        <p>Analysis mode supports</p>
+        <ul>
+            <li> Multiple sets of scan conditions</li>
+            <li> The way to draw a picture is to present the measured values</li>
+            <li> Frequency, voltage, current, time, and temperature sweep point (Sweep)</li>
+            <li> Compare differences under the same measurement conditions.</li>
+        </ul>
+			</div>
+      <div class="tab_button">
+        <span class="icon">
+        <i class='bx bxs-data'></i>
+        </span>
+        <a href="Operations.pdf" target="_blank">Operation Manual</a>
+      </div>
+      <div class="tab_button">
+        <span class="icon">
+        <i class='bx bxs-data'></i>
+        </span>
+        <a href="Installation.pdf" target="_blank">Installation Manual</a>
+      </div>
+      <div class="tab_button">
+        <span class="icon">
+        <i class='bx bxl-telegram' ></i>
+        </span>
+        <a href="contact.html" target="_blank">Request Quote</a>
+      </div>
+		</div>
+		<div class="tab_wrap" style="display: none;">
+			<div class="title">Features</div>
+			<div class="tab_content">
+        <p>Dashbaord Mode Features</p>
+        <ul>
+          <li> Single-step measurement</li>
+          <li> Repeat measurements</li>
+          <li> Load programming settings</li>
+          <li> Installation Edition Installation</li>
+          <li> Instrument viewing</li>
+          <li> End of batch measurement</li>
+          <li> Export Survey Results</li>
+          <li> Measure mode setting</li>
+          <li> Zero calibration</li>
+        </ul>
+        <p>Analysis Mode Features</p>
+        <ul>
+          <li> Set measurement conditions and perform measurement</li>
+          <li> New delta testing conditions</li>
+          <li> Look for the resonant frequency</li>
+          <li> Toggle chart | Edit Chart</li>
+          <li> Supports setting of WK6565 as well as externalpower supply</li>
+          <li> Zero calibration</li>
+          <li> Save the scan condition settings</li>
+          <li> Load scan condition settings</li>
+          <li> Modify the measurement conditions</li>
+          <li> Delete a measurement condition</li>
+          <li> After scaling, it reverts back to the original curve</li>
+          <li> After the adjustment is scaled, the curve no longer appears in range</li>
+          <li> Display | Hide curves</li>
+          <li> Load stored data and present it as a curve</li>
+          <li> View the measured values</li>
+          <li> Save the graph</li>
+          <li> Alignment curve</li>
+          <li> Curve reduction/enlargement</li>
+          <li> Search for the peak value of the curve</li>
+          <li> The scale shows lg(x) / Linear</li>
+          <li> Clear all measurement results</li>
+        </ul>
+			</div>
+      <div class="tab_button">
+        <span class="icon">
+        <i class='bx bxs-data'></i>
+        </span>
+        <a href="Operations.pdf" target="_blank">Operation Manual</a>
+      </div>
+      <div class="tab_button">
+        <span class="icon">
+        <i class='bx bxs-data'></i>
+        </span>
+        <a href="Installation.pdf" target="_blank">Installation Manual</a>
+      </div>
+      <div class="tab_button">
+        <span class="icon">
+        <i class='bx bxl-telegram' ></i>
+        </span>
+        <a href="contact.html" target="_blank">Request Quote</a>
+      </div>
+		</div>
+		<div class="tab_wrap" style="display: none;">
+			<div class="title">System Requirements</div>
+			<div class="tab_content">
+        <table>
+          <tbody>
+            <tr>
+              <td>Operation System</td>
+              <td>Window 7
+                <span>Window 8</span>
+                <span>Window 10</span>
+              </td>
+            </tr>
+            <tr>
+              <td>CPU</td>
+              <td>Intel Core 2 Duo 1.86 GHz or higher
+              </td>
+            </tr>
+            <tr>
+              <td>Memory</td>
+              <td>4GB RAM
+              </td>
+            </tr>
+            <tr>
+              <td>Hard disk space</td>
+              <td>200 MB</td>
+            </tr>
+            <tr>
+              <td>Driver</td>
+              <td>NI-488.2 Driver 17.6 or later</td>
+            </tr>
+            <tr>
+              <td>Operating environment</td>
+              <td>NI-DAQmx 18.1 or later</td>
+            </tr>
+          </tbody>
+        </table>
+			</div>
+      <div class="tab_button">
+        <span class="icon">
+        <i class='bx bxs-data'></i>
+        </span>
+        <a href="Operations.pdf" target="_blank">Operation Manual</a>
+      </div>
+      <div class="tab_button">
+        <span class="icon">
+        <i class='bx bxs-data'></i>
+        </span>
+        <a href="Installation.pdf" target="_blank">Installation Manual</a>
+      </div>
+      <div class="tab_button">
+        <span class="icon">
+        <i class='bx bxl-telegram' ></i>
+        </span>
+        <a href="contact.html" target="_blank">Request Quote</a>
+      </div>
+		</div>
+		<div class="tab_wrap" style="display: none;">
+			<div class="title">Mode</div>
+			<div class="tab_content">
+				<p>Dashboard Mode</p>
+        <p>Analysis Mode</p>
+			</div>
+      <div class="tab_button">
+        <span class="icon">
+        <i class='bx bxs-data'></i>
+        </span>
+        <a href="Operations.pdf" target="_blank">Operation Manual</a>
+      </div>
+      <div class="tab_button">
+        <span class="icon">
+        <i class='bx bxs-data'></i>
+        </span>
+        <a href="Installation.pdf" target="_blank">Installation Manual</a>
+      </div>
+      <div class="tab_button">
+        <span class="icon">
+        <i class='bx bxl-telegram' ></i>
+        </span>
+        <a href="contact.html" target="_blank">Request Quote</a>
+      </div>
+		</div>
+	</div>
+  </div>
+
+
+    <!--Footer Section-->
+    <footer>
+      <div class="footer__container">
+        <div class="footer__content">
+          <div class="footer__profil">
+            <div class="logo__area">
+              <img src="images/logo.png" alt="">
+            </div>
+            <div class="desc__area">
+              <p>Wayne Kerr Electronics is acknowledged worldwide for the quality, accuracy and the capability of its component measurement products.</p>
+            </div>
+          </div>
+          <div class="footer_service__area">
+            <ul class = "footer__service__header">
+              <li class = "footer__service__name">Quick Links</li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer_service__area">
+            <ul class = "footer__service__header">
+              <li class = "footer__service__name">Contact</li>
+              <li><a href="#">165L New Boston Street, Woburn, MA 01801-1744, USA</a></li>
+              <li><a href="#">Tel: +1(800)933-9319</a></li>
+              <li><a href="#">Fax: +1(781)933-9523</a></li>
+              <li><a href="#">sales@waynekerr.com</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr class = "hr">
+        <div class="footer__bottom">
+          <div class="copy__right">
+            <i class='bx bx-copyright'></i>
+            <span>2021 Wayne Kerr</span>
+          </div>
+          <div class="tou">
+            <a href="#">Term of Use</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Cookie</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+<script src="scripts.js"></script>
+</body>
+</html>
